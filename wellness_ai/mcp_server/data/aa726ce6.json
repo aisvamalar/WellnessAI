@@ -1,0 +1,71 @@
+{
+  "user_id": "aa726ce6",
+  "goals": [
+    "hydration",
+    "exercise_daily"
+  ],
+  "fitness_level": "beginner",
+  "checkins": [],
+  "routines": [
+    {
+      "routine_id": "6ec21e1f-d29",
+      "date": "2026-04-28",
+      "activities": [
+        {
+          "id": "water_tracking",
+          "name": "Hydration Tracking",
+          "duration": 0,
+          "time_of_day": "any",
+          "description": "Drink 8 glasses of water throughout the day",
+          "goal": "hydration",
+          "routine_activity_id": "0c89f099",
+          "completed": true,
+          "completed_at": "2026-04-28T21:52:04.319255"
+        },
+        {
+          "id": "morning_water",
+          "name": "Morning Hydration",
+          "duration": 2,
+          "time_of_day": "morning",
+          "description": "Drink 500ml water immediately after waking",
+          "goal": "hydration",
+          "routine_activity_id": "ae7eace1",
+          "completed": true,
+          "completed_at": "2026-04-28T21:52:05.273247"
+        },
+        {
+          "id": "morning_yoga",
+          "name": "Morning Yoga Flow",
+          "duration": 20,
+          "time_of_day": "morning",
+          "description": "Sun salutations and energizing poses",
+          "goal": "exercise_daily",
+          "routine_activity_id": "b6f1303b",
+          "completed": true,
+          "completed_at": "2026-04-28T21:52:05.820067"
+        },
+        {
+          "id": "hiit_short",
+          "name": "10-min HIIT",
+          "duration": 10,
+          "time_of_day": "any",
+          "description": "High intensity intervals: jumping jacks, burpees, squats",
+          "goal": "exercise_daily",
+          "routine_activity_id": "9591bba3",
+          "completed": true,
+          "completed_at": "2026-04-28T21:52:42.710670"
+        }
+      ],
+      "total_duration_minutes": 32,
+      "adapted_for": {
+        "stress_level": 5,
+        "energy_level": 5,
+        "sleep_hours": 7
+      },
+      "message": "Balanced day ahead. Your routine is set for steady progress."
+    }
+  ],
+  "completed_activities": [],
+  "streak": 0,
+  "created_at": "2026-04-28T21:51:28.610446"
+}

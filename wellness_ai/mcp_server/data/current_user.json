@@ -1,0 +1,107 @@
+{
+  "user_id": "current_user",
+  "goals": [
+    "mindfulness",
+    "exercise_daily"
+  ],
+  "fitness_level": "beginner",
+  "checkins": [],
+  "routines": [
+    {
+      "routine_id": "7b946364-1ca",
+      "date": "2026-04-28",
+      "activities": [
+        {
+          "id": "morning_meditation",
+          "name": "Morning Meditation",
+          "duration": 10,
+          "time_of_day": "morning",
+          "description": "Focused attention meditation to start the day",
+          "goal": "mindfulness",
+          "routine_activity_id": "f90ac100",
+          "completed": false
+        },
+        {
+          "id": "gratitude",
+          "name": "Gratitude Practice",
+          "duration": 5,
+          "time_of_day": "morning",
+          "description": "Write 3 things you're grateful for",
+          "goal": "mindfulness",
+          "routine_activity_id": "c79fd437",
+          "completed": false
+        },
+        {
+          "id": "mindful_eating",
+          "name": "Mindful Eating",
+          "duration": 0,
+          "time_of_day": "any",
+          "description": "Eat one meal today without distractions",
+          "goal": "mindfulness",
+          "routine_activity_id": "ab1544c6",
+          "completed": false
+        },
+        {
+          "id": "body_scan",
+          "name": "Body Scan",
+          "duration": 15,
+          "time_of_day": "any",
+          "description": "Progressive relaxation from head to toe",
+          "goal": "mindfulness",
+          "routine_activity_id": "3b7d0540",
+          "completed": false
+        },
+        {
+          "id": "morning_yoga",
+          "name": "Morning Yoga Flow",
+          "duration": 20,
+          "time_of_day": "morning",
+          "description": "Sun salutations and energizing poses",
+          "goal": "exercise_daily",
+          "routine_activity_id": "63aabbaf",
+          "completed": false
+        },
+        {
+          "id": "hiit_short",
+          "name": "10-min HIIT",
+          "duration": 10,
+          "time_of_day": "any",
+          "description": "High intensity intervals: jumping jacks, burpees, squats",
+          "goal": "exercise_daily",
+          "routine_activity_id": "92f31d6f",
+          "completed": false
+        },
+        {
+          "id": "strength_basic",
+          "name": "Bodyweight Strength",
+          "duration": 25,
+          "time_of_day": "any",
+          "description": "Push-ups, squats, lunges, planks",
+          "goal": "exercise_daily",
+          "routine_activity_id": "06d80af0",
+          "completed": false
+        },
+        {
+          "id": "walk_10k",
+          "name": "10,000 Steps Goal",
+          "duration": 30,
+          "time_of_day": "any",
+          "description": "Aim for 10k steps throughout the day",
+          "goal": "exercise_daily",
+          "routine_activity_id": "15e89c7e",
+          "completed": false
+        }
+      ],
+      "total_duration_minutes": 115,
+      "adapted_for": {
+        "stress_level": 5,
+        "energy_level": 5,
+        "sleep_hours": 7
+      },
+      "message": "Balanced day ahead. Your routine is set for steady progress."
+    }
+  ],
+  "completed_activities": [],
+  "streak": 0,
+  "created_at": "2026-04-28T19:46:48.753149"
+}

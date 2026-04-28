@@ -1,0 +1,102 @@
+{
+  "user_id": "843decb8",
+  "goals": [
+    "hydration",
+    "exercise_daily",
+    "mindfulness"
+  ],
+  "fitness_level": "advanced",
+  "checkins": [
+    {
+      "date": "2026-04-25",
+      "sleep_hours": 7.0,
+      "stress_level": 5,
+      "energy_level": 5,
+      "mood": "neutral",
+      "notes": "",
+      "timestamp": "2026-04-25T13:31:46.867949"
+    }
+  ],
+  "routines": [
+    {
+      "routine_id": "9a9c6632-cc6",
+      "date": "2026-04-25",
+      "activities": [
+        {
+          "id": "water_tracking",
+          "name": "Hydration Tracking",
+          "duration": 0,
+          "time_of_day": "any",
+          "description": "Drink 8 glasses of water throughout the day",
+          "goal": "hydration",
+          "routine_activity_id": "28d9d295",
+          "completed": true,
+          "completed_at": "2026-04-25T13:32:07.692120"
+        },
+        {
+          "id": "morning_water",
+          "name": "Morning Hydration",
+          "duration": 2,
+          "time_of_day": "morning",
+          "description": "Drink 500ml water immediately after waking",
+          "goal": "hydration",
+          "routine_activity_id": "f2c11f96",
+          "completed": true,
+          "completed_at": "2026-04-25T13:31:54.174385"
+        },
+        {
+          "id": "morning_yoga",
+          "name": "Morning Yoga Flow",
+          "duration": 20,
+          "time_of_day": "morning",
+          "description": "Sun salutations and energizing poses",
+          "goal": "exercise_daily",
+          "routine_activity_id": "ea9b8c53",
+          "completed": true,
+          "completed_at": "2026-04-25T13:31:54.900982"
+        },
+        {
+          "id": "hiit_short",
+          "name": "10-min HIIT",
+          "duration": 10,
+          "time_of_day": "any",
+          "description": "High intensity intervals: jumping jacks, burpees, squats",
+          "goal": "exercise_daily",
+          "routine_activity_id": "add95956",
+          "completed": true,
+          "completed_at": "2026-04-25T13:31:56.561680"
+        },
+        {
+          "id": "morning_meditation",
+          "name": "Morning Meditation",
+          "duration": 10,
+          "time_of_day": "morning",
+          "description": "Focused attention meditation to start the day",
+          "goal": "mindfulness",
+          "routine_activity_id": "7b9e8356",
+          "completed": false
+        },
+        {
+          "id": "mindful_eating",
+          "name": "Mindful Eating",
+          "duration": 0,
+          "time_of_day": "any",
+          "description": "Eat one meal today without distractions",
+          "goal": "mindfulness",
+          "routine_activity_id": "7666825a",
+          "completed": false
+        }
+      ],
+      "total_duration_minutes": 42,
+      "adapted_for": {
+        "stress_level": 5,
+        "energy_level": 5,
+        "sleep_hours": 7.0
+      },
+      "message": "Balanced day ahead. Your routine is set for steady progress."
+    }
+  ],
+  "completed_activities": [],
+  "streak": 0,
+  "created_at": "2026-04-25T13:31:40.398484"
+}

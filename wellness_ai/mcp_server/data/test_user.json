@@ -1,0 +1,87 @@
+{
+  "user_id": "test_user",
+  "goals": [
+    "mindfulness",
+    "exercise_daily"
+  ],
+  "fitness_level": "beginner",
+  "checkins": [
+    {
+      "date": "2026-04-25",
+      "sleep_hours": 7.5,
+      "stress_level": 4,
+      "energy_level": 7,
+      "mood": "good",
+      "notes": "feeling okay",
+      "timestamp": "2026-04-25T13:02:58.390625"
+    }
+  ],
+  "routines": [
+    {
+      "routine_id": "e74feca5-bb0",
+      "date": "2026-04-25",
+      "activities": [
+        {
+          "id": "morning_meditation",
+          "name": "Morning Meditation",
+          "duration": 10,
+          "time_of_day": "morning",
+          "description": "Focused attention meditation to start the day",
+          "goal": "mindfulness",
+          "routine_activity_id": "a93dbeba",
+          "completed": false
+        },
+        {
+          "id": "gratitude",
+          "name": "Gratitude Practice",
+          "duration": 5,
+          "time_of_day": "morning",
+          "description": "Write 3 things you're grateful for",
+          "goal": "mindfulness",
+          "routine_activity_id": "fa1b3ab7",
+          "completed": false
+        },
+        {
+          "id": "mindful_eating",
+          "name": "Mindful Eating",
+          "duration": 0,
+          "time_of_day": "any",
+          "description": "Eat one meal today without distractions",
+          "goal": "mindfulness",
+          "routine_activity_id": "e07812ce",
+          "completed": false
+        },
+        {
+          "id": "body_scan",
+          "name": "Body Scan",
+          "duration": 15,
+          "time_of_day": "any",
+          "description": "Progressive relaxation from head to toe",
+          "goal": "mindfulness",
+          "routine_activity_id": "a9a81e5d",
+          "completed": false
+        },
+        {
+          "id": "hiit_short",
+          "name": "10-min HIIT",
+          "duration": 10,
+          "time_of_day": "any",
+          "description": "High intensity intervals: jumping jacks, burpees, squats",
+          "goal": "exercise_daily",
+          "routine_activity_id": "3dca9320",
+          "completed": false
+        }
+      ],
+      "total_duration_minutes": 40,
+      "adapted_for": {
+        "stress_level": 4,
+        "energy_level": 7,
+        "sleep_hours": 7.5
+      },
+      "message": "Balanced day ahead. Your routine is set for steady progress."
+    }
+  ],
+  "completed_activities": [],
+  "streak": 0,
+  "created_at": "2026-04-25T13:02:58.390064"
+}

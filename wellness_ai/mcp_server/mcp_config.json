@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "wellness-ai": {
+      "command": "python",
+      "args": ["wellness_ai/mcp_server/server.py"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": [
+        "log_daily_checkin",
+        "generate_daily_routine",
+        "get_user_profile",
+        "get_consistency_report",
+        "complete_activity",
+        "adjust_routine",
+        "update_user_goals"
+      ]
+    }
+  }
+}

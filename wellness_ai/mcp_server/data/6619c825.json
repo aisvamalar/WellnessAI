@@ -1,0 +1,77 @@
+{
+  "user_id": "6619c825",
+  "goals": [
+    "mindfulness"
+  ],
+  "fitness_level": "advanced",
+  "checkins": [
+    {
+      "date": "2026-04-28",
+      "sleep_hours": 7.0,
+      "stress_level": 5,
+      "energy_level": 5,
+      "mood": "neutral",
+      "notes": "",
+      "timestamp": "2026-04-28T19:35:06.940685"
+    }
+  ],
+  "routines": [
+    {
+      "routine_id": "85beb874-34f",
+      "date": "2026-04-28",
+      "activities": [
+        {
+          "id": "morning_meditation",
+          "name": "Morning Meditation",
+          "duration": 10,
+          "time_of_day": "morning",
+          "description": "Focused attention meditation to start the day",
+          "goal": "mindfulness",
+          "routine_activity_id": "f7b11fc2",
+          "completed": true,
+          "completed_at": "2026-04-28T19:35:09.786116"
+        },
+        {
+          "id": "gratitude",
+          "name": "Gratitude Practice",
+          "duration": 5,
+          "time_of_day": "morning",
+          "description": "Write 3 things you're grateful for",
+          "goal": "mindfulness",
+          "routine_activity_id": "edea6805",
+          "completed": false
+        },
+        {
+          "id": "mindful_eating",
+          "name": "Mindful Eating",
+          "duration": 0,
+          "time_of_day": "any",
+          "description": "Eat one meal today without distractions",
+          "goal": "mindfulness",
+          "routine_activity_id": "14c14e71",
+          "completed": false
+        },
+        {
+          "id": "body_scan",
+          "name": "Body Scan",
+          "duration": 15,
+          "time_of_day": "any",
+          "description": "Progressive relaxation from head to toe",
+          "goal": "mindfulness",
+          "routine_activity_id": "edb71082",
+          "completed": false
+        }
+      ],
+      "total_duration_minutes": 30,
+      "adapted_for": {
+        "stress_level": 5,
+        "energy_level": 5,
+        "sleep_hours": 7.0
+      },
+      "message": "Balanced day ahead. Your routine is set for steady progress."
+    }
+  ],
+  "completed_activities": [],
+  "streak": 0,
+  "created_at": "2026-04-28T19:35:02.792850"
+}

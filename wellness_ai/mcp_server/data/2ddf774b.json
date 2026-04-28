@@ -1,0 +1,82 @@
+{
+  "user_id": "2ddf774b",
+  "goals": [
+    "exercise_daily",
+    "reduce_stress",
+    "better_sleep"
+  ],
+  "fitness_level": "beginner",
+  "checkins": [
+    {
+      "date": "2026-04-25",
+      "sleep_hours": 7.0,
+      "stress_level": 5,
+      "energy_level": 5,
+      "mood": "good",
+      "notes": "",
+      "timestamp": "2026-04-25T13:09:53.700101"
+    }
+  ],
+  "routines": [
+    {
+      "routine_id": "2ade23aa-f59",
+      "date": "2026-04-25",
+      "activities": [
+        {
+          "id": "morning_yoga",
+          "name": "Morning Yoga Flow",
+          "duration": 20,
+          "time_of_day": "morning",
+          "description": "Sun salutations and energizing poses",
+          "goal": "exercise_daily",
+          "routine_activity_id": "621b4a02",
+          "completed": true,
+          "completed_at": "2026-04-25T13:10:20.546777"
+        },
+        {
+          "id": "hiit_short",
+          "name": "10-min HIIT",
+          "duration": 10,
+          "time_of_day": "any",
+          "description": "High intensity intervals: jumping jacks, burpees, squats",
+          "goal": "exercise_daily",
+          "routine_activity_id": "259a4e27",
+          "completed": true,
+          "completed_at": "2026-04-25T13:10:26.128272"
+        },
+        {
+          "id": "box_breathing",
+          "name": "Box Breathing",
+          "duration": 5,
+          "time_of_day": "any",
+          "description": "4-4-4-4 breathing pattern to calm nervous system",
+          "goal": "reduce_stress",
+          "routine_activity_id": "f6c63a46",
+          "completed": true,
+          "completed_at": "2026-04-25T13:10:28.416515"
+        },
+        {
+          "id": "journaling",
+          "name": "Stress Journaling",
+          "duration": 10,
+          "time_of_day": "evening",
+          "description": "Write down worries and reframe them positively",
+          "goal": "reduce_stress",
+          "routine_activity_id": "0d8e150c",
+          "completed": true,
+          "completed_at": "2026-04-25T13:10:29.228458"
+        }
+      ],
+      "total_duration_minutes": 45,
+      "adapted_for": {
+        "stress_level": 5,
+        "energy_level": 5,
+        "sleep_hours": 7.0
+      },
+      "message": "Balanced day ahead. Your routine is set for steady progress."
+    }
+  ],
+  "completed_activities": [],
+  "streak": 0,
+  "created_at": "2026-04-25T13:09:38.890956"
+}

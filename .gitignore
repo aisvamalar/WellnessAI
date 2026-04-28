@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flutter/Dart
+wellness_ai/flutter_app/.dart_tool/
+wellness_ai/flutter_app/.flutter-plugins
+wellness_ai/flutter_app/.flutter-plugins-dependencies
+wellness_ai/flutter_app/.packages
+wellness_ai/flutter_app/build/
+wellness_ai/flutter_app/.pub-cache/
+wellness_ai/flutter_app/.pub/
+wellness_ai/flutter_app/ios/Flutter/Generated.xcconfig
+wellness_ai/flutter_app/ios/Flutter/flutter_export_environment.sh
+wellness_ai/flutter_app/ios/Flutter/ephemeral/
+wellness_ai/flutter_app/android/.gradle/
+wellness_ai/flutter_app/android/local.properties
+wellness_ai/flutter_app/android/app/build/
+wellness_ai/flutter_app/android/.kotlin/
+
+# Logs
+*.log
