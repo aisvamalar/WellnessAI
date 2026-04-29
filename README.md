@@ -104,7 +104,7 @@ WellnessAI has two main components that communicate over HTTP:
 │                    Guardrails + Observability                   │
 └─────────────────────────────────────────────────────────────────┘
 ```
-<img width="1024" height="1536" alt="ChatGPT Image Apr 29, 2026, 12_24_21 PM" src="https://github.com/user-attachments/assets/55eccc1f-252d-4e8d-95b8-ec76e9ece6c1" />
+<img width="700" height="700" alt="ChatGPT Image Apr 29, 2026, 12_24_21 PM" src="https://github.com/user-attachments/assets/55eccc1f-252d-4e8d-95b8-ec76e9ece6c1" />
 
 ---
 
