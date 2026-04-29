@@ -44,6 +44,21 @@ WellnessAI is a **fully agentic wellness application** — not just a chatbot wi
 
 Every interaction goes through the **Model Context Protocol (MCP)** — a standardised tool-calling interface between the LLM and the wellness data engine.
 
+#DEMO SCREESHOTS
+
+
+<img width="1080" height="2408" alt="WhatsApp Image 2026-04-29 at 1 53 54 PM" src="https://github.com/user-attachments/assets/10c8b9ff-e879-4d01-b521-fb46fb676282" />
+
+<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 53 56 PM" src="https://github.com/user-attachments/assets/cab3165b-97b9-4390-9b63-934de22ca6ef" />
+<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 54 02 PM" src="https://github.com/user-attachments/assets/c905c88c-b515-4ce6-ad34-c9345dce83a4" />
+<img width="1080" height="2408" alt="WhatsApp Image 2026-04-29 at 1 53 54 PM" src="https://github.com/user-attachments/assets/49795961-d476-48d0-ab34-df547430487f" />
+
+<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 53 56 PM" src="https://github.com/user-attachments/assets/4d4257f1-0063-4443-acd1-ddfd8d0e1f93" />
+<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 54 02 PM" src="https://github.com/user-attachments/assets/1601895b-2100-45a7-893f-de557329f8c9" />
+<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 54 03 PM" src="https://github.com/user-attachments/assets/35467db5-246e-4972-a9a9-2e0c72dd231b" />
+<img width="1080" height="2408" alt="WhatsApp Image 2026-04-29 at 1 54 04 PM" src="https://github.com/user-attachments/assets/2c4ea8a2-d86c-4d19-b8f3-509933410af0" />
+<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 54 07 PM" src="https://github.com/user-attachments/assets/242567e2-fd7c-4a39-89e4-8aaf10ae1a57" />
+
 ---
 
 ## Key Features
@@ -100,6 +115,7 @@ WellnessAI has two main components that communicate over HTTP:
 │                    Guardrails + Observability                   │
 └─────────────────────────────────────────────────────────────────┘
 ```
+<img width="1024" height="1536" alt="ChatGPT Image Apr 29, 2026, 12_24_21 PM" src="https://github.com/user-attachments/assets/55eccc1f-252d-4e8d-95b8-ec76e9ece6c1" />
 
 ---
 
@@ -790,3 +806,7 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
     <a href="https://modelcontextprotocol.io">MCP</a>
   </p>
 </div>
+
+# AUTHOR
+NAME : AISVA MALAR A
+EMAIL: aishuarou656@gmail.com
