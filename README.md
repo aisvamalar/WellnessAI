@@ -49,8 +49,8 @@ Every interaction goes through the **Model Context Protocol (MCP)** — a standa
 
 <img width="1080" height="2408" alt="WhatsApp Image 2026-04-29 at 1 53 54 PM" src="https://github.com/user-attachments/assets/10c8b9ff-e879-4d01-b521-fb46fb676282" />
 
-<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 53 56 PM" src="https://github.com/user-attachments/assets/cab3165b-97b9-4390-9b63-934de22ca6ef" />
-<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 54 02 PM" src="https://github.com/user-attachments/assets/c905c88c-b515-4ce6-ad34-c9345dce83a4" />
+<img width="300" height="300" alt="WhatsApp Image 2026-04-29 at 1 53 56 PM" src="https://github.com/user-attachments/assets/cab3165b-97b9-4390-9b63-934de22ca6ef" />
+<img width="300" height="300" alt="WhatsApp Image 2026-04-29 at 1 54 02 PM" src="https://github.com/user-attachments/assets/c905c88c-b515-4ce6-ad34-c9345dce83a4" />
 <img width="1080" height="2408" alt="WhatsApp Image 2026-04-29 at 1 53 54 PM" src="https://github.com/user-attachments/assets/49795961-d476-48d0-ab34-df547430487f" />
 
 <img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 53 56 PM" src="https://github.com/user-attachments/assets/4d4257f1-0063-4443-acd1-ddfd8d0e1f93" />
