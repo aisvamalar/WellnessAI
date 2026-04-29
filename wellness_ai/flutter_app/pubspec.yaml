@@ -31,6 +31,9 @@ dependencies:
   uuid: ^4.4.0
   freezed_annotation: ^2.4.1
   json_annotation: ^4.9.0
+  flutter_markdown_plus: ^1.0.7
+  # Notifications
+  flutter_local_notifications: ^17.2.4
 
 dev_dependencies:
   flutter_test:

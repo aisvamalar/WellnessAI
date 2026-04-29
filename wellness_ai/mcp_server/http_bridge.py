@@ -10,8 +10,13 @@ Endpoints:
 
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import json
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 from wellness_engine import WellnessEngine
 from multi_agent import run_multi_agent
+from notification_agent import check_and_nudge
 from guardrails import validate_tool_args, GuardrailViolation
 from observability import get_logger, get_metrics, Trace
 
@@ -40,6 +45,8 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Content-Type", "application/json")
         self.send_header("Content-Length", str(len(body)))
         self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type, Authorization")
         self.end_headers()
         self.wfile.write(body)
 
@@ -56,7 +63,7 @@ class Handler(BaseHTTPRequestHandler):
                 "status": "ok",
                 "tools": list(TOOL_MAP.keys()),
                 "agents": ["routine", "progress", "coach", "rag"],
-                "features": ["mcp", "rag", "multi_agent", "guardrails", "observability"],
+                "features": ["mcp", "rag", "multi_agent", "guardrails", "observability", "notifications"],
             })
         elif self.path == "/metrics":
             self._send_json(metrics.snapshot())
@@ -78,6 +85,17 @@ class Handler(BaseHTTPRequestHandler):
             result = run_multi_agent(user_id, message, history)
             trace.finish("ok")
             self._send_json(result)
+            return
+
+        # ── /notify/check — MCP agent analyses pending tasks ─────
+        if self.path == "/notify/check":
+            user_id = body.get("user_id", "user_default")
+            try:
+                result = check_and_nudge(user_id)
+                self._send_json(result)
+            except Exception as e:
+                logger.error(f"Notification check error: {e}")
+                self._send_json({"error": str(e), "should_notify": False}, 500)
             return
 
         # ── /tool — direct MCP tool call ─────────────────────────

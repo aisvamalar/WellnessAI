@@ -7,10 +7,27 @@ import '../../features/checkin/checkin_screen.dart';
 import '../../features/routine/routine_screen.dart';
 import '../../features/progress/progress_screen.dart';
 import '../../features/agent_chat/agent_chat_screen.dart';
+import '../../data/local/hive_adapters.dart';
 
 final appRouterProvider = Provider<GoRouter>((ref) {
   return GoRouter(
     initialLocation: '/onboarding',
+    redirect: (context, state) {
+      final onboarded = LocalStorage.isOnboarded();
+      final onOnboarding = state.matchedLocation == '/onboarding';
+      if (onboarded && onOnboarding) return '/home';
+      if (!onboarded && !onOnboarding) return '/onboarding';
+
+      // Handle notification tap — navigate to pending route if set
+      if (onboarded && !onOnboarding) {
+        final pending = LocalStorage.getPendingRoute();
+        if (pending != null && pending != state.matchedLocation) {
+          LocalStorage.clearPendingRoute();
+          return pending;
+        }
+      }
+      return null;
+    },
     routes: [
       GoRoute(path: '/onboarding', builder: (_, __) => const OnboardingScreen()),
       ShellRoute(

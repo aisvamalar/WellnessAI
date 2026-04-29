@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:uuid/uuid.dart';
 import '../../data/local/hive_adapters.dart';
 import '../../data/services/wellness_mcp_service.dart';
+import '../../data/services/notification_service.dart';
 
 class OnboardingScreen extends ConsumerStatefulWidget {
   const OnboardingScreen({super.key});
@@ -219,6 +220,8 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
       await WellnessMcpService().updateGoals(
           userId, _selectedGoals.toList(), _fitnessLevel);
     } catch (_) {}
+    // Start background notification checks now that user is onboarded
+    NotificationService.startPeriodicCheck();
     if (mounted) context.go('/home');
   }
 }

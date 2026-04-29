@@ -7,6 +7,9 @@ class UserProfile {
   final int streakDays;
   final int totalCheckins;
   final DailyCheckin? lastCheckin;
+  final WellnessScore? wellnessScore;
+  final BurnoutRisk? burnoutRisk;
+  final WellnessNudge? nudge;
 
   const UserProfile({
     required this.userId,
@@ -15,6 +18,9 @@ class UserProfile {
     required this.streakDays,
     required this.totalCheckins,
     this.lastCheckin,
+    this.wellnessScore,
+    this.burnoutRisk,
+    this.nudge,
   });
 
   factory UserProfile.fromJson(Map<String, dynamic> j) => UserProfile(
@@ -26,6 +32,75 @@ class UserProfile {
         lastCheckin: j['last_checkin'] != null
             ? DailyCheckin.fromJson(j['last_checkin'])
             : null,
+        wellnessScore: j['wellness_score'] != null
+            ? WellnessScore.fromJson(j['wellness_score'])
+            : null,
+        burnoutRisk: j['burnout_risk'] != null
+            ? BurnoutRisk.fromJson(j['burnout_risk'])
+            : null,
+        nudge: j['nudge'] != null ? WellnessNudge.fromJson(j['nudge']) : null,
+      );
+}
+
+// ── Wellness Score ────────────────────────────────────────────────────────────
+
+class WellnessScore {
+  final int score;
+  final String grade;
+  final Map<String, int> dimensions;
+
+  const WellnessScore({
+    required this.score,
+    required this.grade,
+    required this.dimensions,
+  });
+
+  factory WellnessScore.fromJson(Map<String, dynamic> j) => WellnessScore(
+        score: j['score'] ?? 0,
+        grade: j['grade'] ?? 'No data',
+        dimensions: Map<String, int>.from(
+          (j['dimensions'] as Map? ?? {}).map((k, v) => MapEntry(k, (v as num).toInt())),
+        ),
+      );
+}
+
+// ── Burnout Risk ──────────────────────────────────────────────────────────────
+
+class BurnoutRisk {
+  final String risk; // "low" | "moderate" | "high" | "unknown"
+  final String reason;
+  final int daysFlagged;
+
+  const BurnoutRisk({
+    required this.risk,
+    required this.reason,
+    required this.daysFlagged,
+  });
+
+  factory BurnoutRisk.fromJson(Map<String, dynamic> j) => BurnoutRisk(
+        risk: j['risk'] ?? 'unknown',
+        reason: j['reason'] ?? '',
+        daysFlagged: j['days_flagged'] ?? 0,
+      );
+}
+
+// ── Contextual Nudge ──────────────────────────────────────────────────────────
+
+class WellnessNudge {
+  final String message;
+  final String icon;
+  final String? action; // "checkin" | "routine" | "agent" | null
+
+  const WellnessNudge({
+    required this.message,
+    required this.icon,
+    this.action,
+  });
+
+  factory WellnessNudge.fromJson(Map<String, dynamic> j) => WellnessNudge(
+        message: j['message'] ?? '',
+        icon: j['icon'] ?? 'info',
+        action: j['action'] as String?,
       );
 }
 

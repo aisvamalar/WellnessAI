@@ -47,3 +47,9 @@ wellness_ai/flutter_app/android/.kotlin/
 
 # Logs
 *.log
+
+# MCP user data (contains personal check-in data)
+wellness_ai/mcp_server/data/*.json
+
+# Kiro spec files
+.kiro/

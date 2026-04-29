@@ -19,4 +19,8 @@ class LocalStorage {
 
   static String? getCachedProfile() => _box.get('cached_profile');
   static Future<void> cacheProfile(String json) => _box.put('cached_profile', json);
+
+  static String? getPendingRoute() => _box.get('pending_route');
+  static Future<void> setPendingRoute(String route) => _box.put('pending_route', route);
+  static Future<void> clearPendingRoute() => _box.delete('pending_route');
 }
