@@ -45,19 +45,16 @@ WellnessAI is a **fully agentic wellness application** — not just a chatbot wi
 Every interaction goes through the **Model Context Protocol (MCP)** — a standardised tool-calling interface between the LLM and the wellness data engine.
 
 #DEMO SCREESHOTS
+<img width="300" height="400" alt="WhatsApp Image 2026-04-29 at 1 53 43 PM" src="https://github.com/user-attachments/assets/b9c1cbec-fd0f-4e02-95c2-4b9b45ad150e" />
+<img width="300" height="400" alt="WhatsApp Image 2026-04-29 at 1 53 52 PM" src="https://github.com/user-attachments/assets/b342a85b-2d36-4dac-99f0-3ceecd6a52d7" />
+<img width="300" height="400" alt="WhatsApp Image 2026-04-29 at 1 53 54 PM" src="https://github.com/user-attachments/assets/bc56478f-eb0f-4c87-aa6e-afa1b93e825e" />
+<img width="300" height="400" alt="WhatsApp Image 2026-04-29 at 1 53 54 PM" src="https://github.com/user-attachments/assets/7835a946-6da2-46bb-90b1-4d8aa6b5032f" />
+<img width="300" height="400" alt="WhatsApp Image 2026-04-29 at 1 53 56 PM" src="https://github.com/user-attachments/assets/b052eb42-a455-4d76-a21c-2adc5ae0549e" />
+<img width="300" height="400" alt="WhatsApp Image 2026-04-29 at 1 54 02 PM" src="https://github.com/user-attachments/assets/f501c9e7-f260-41d4-b9e3-2e3dc66bf864" />
+<img width="300" height="400" alt="WhatsApp Image 2026-04-29 at 1 54 02 PM" src="https://github.com/user-attachments/assets/3da6562c-9db8-46c5-9823-ebf7589491a1" />
+<img width="300" height="400" alt="WhatsApp Image 2026-04-29 at 1 54 04 PM" src="https://github.com/user-attachments/assets/8f843a66-4d11-4203-a4f8-e55a599878e4" />
+<img width="300" height="400" alt="WhatsApp Image 2026-04-29 at 1 54 07 PM" src="https://github.com/user-attachments/assets/8b40931a-db62-4d50-9423-bf404131a82c" />
 
-
-<img width="1080" height="2408" alt="WhatsApp Image 2026-04-29 at 1 53 54 PM" src="https://github.com/user-attachments/assets/10c8b9ff-e879-4d01-b521-fb46fb676282" />
-
-<img width="300" height="300" alt="WhatsApp Image 2026-04-29 at 1 53 56 PM" src="https://github.com/user-attachments/assets/cab3165b-97b9-4390-9b63-934de22ca6ef" />
-<img width="300" height="300" alt="WhatsApp Image 2026-04-29 at 1 54 02 PM" src="https://github.com/user-attachments/assets/c905c88c-b515-4ce6-ad34-c9345dce83a4" />
-<img width="1080" height="2408" alt="WhatsApp Image 2026-04-29 at 1 53 54 PM" src="https://github.com/user-attachments/assets/49795961-d476-48d0-ab34-df547430487f" />
-
-<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 53 56 PM" src="https://github.com/user-attachments/assets/4d4257f1-0063-4443-acd1-ddfd8d0e1f93" />
-<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 54 02 PM" src="https://github.com/user-attachments/assets/1601895b-2100-45a7-893f-de557329f8c9" />
-<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 54 03 PM" src="https://github.com/user-attachments/assets/35467db5-246e-4972-a9a9-2e0c72dd231b" />
-<img width="1080" height="2408" alt="WhatsApp Image 2026-04-29 at 1 54 04 PM" src="https://github.com/user-attachments/assets/2c4ea8a2-d86c-4d19-b8f3-509933410af0" />
-<img width="717" height="1600" alt="WhatsApp Image 2026-04-29 at 1 54 07 PM" src="https://github.com/user-attachments/assets/242567e2-fd7c-4a39-89e4-8aaf10ae1a57" />
 
 ---
 
